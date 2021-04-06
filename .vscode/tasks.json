@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "env/Lib/site-packages/jupyterlab_widgets/labextension/",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"label": "npm: build - env/Lib/site-packages/jupyterlab_widgets/labextension",
+			"detail": "jlpm run build:lib && jlpm run build:labextension:dev"
+		}
+	]
+}
